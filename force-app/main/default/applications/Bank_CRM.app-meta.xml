@@ -65,5 +65,4 @@
     <tabs>FinancialService__c</tabs>
     <tabs>LoanRequest__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>Bank_CRM_UtilityBar</utilityBar>
 </CustomApplication>
