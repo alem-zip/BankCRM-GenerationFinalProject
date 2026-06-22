@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RightAmount</fullName>
+    <active>true</active>
+    <errorConditionFormula>Amount__c  &lt;= 0</errorConditionFormula>
+    <errorDisplayField>Amount__c</errorDisplayField>
+    <errorMessage>L&apos; importo richiesto per il prestito non puó essere minore o uguale a zero</errorMessage>
+</ValidationRule>

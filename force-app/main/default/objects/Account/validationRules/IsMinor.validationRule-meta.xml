@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsMinor</fullName>
+    <active>true</active>
+    <errorConditionFormula>PersonBirthdate &gt; ADDMONTHS(TODAY(), -12 * 18) &amp;&amp;
+ISBLANK(Guarantor__c)</errorConditionFormula>
+    <errorDisplayField>Guarantor__c</errorDisplayField>
+    <errorMessage>Un minorenne deve avere un garante.</errorMessage>
+</ValidationRule>

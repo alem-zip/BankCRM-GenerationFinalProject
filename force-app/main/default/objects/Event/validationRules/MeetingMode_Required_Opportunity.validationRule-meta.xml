@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MeetingMode_Required_Opportunity</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(MeetingMode__c, &quot;&quot;),
+    LEFT(WhatId, 3) = &quot;006&quot;)</errorConditionFormula>
+    <errorDisplayField>MeetingMode__c</errorDisplayField>
+    <errorMessage>Il campo Meeting Mode è obbligatorio quando l’evento è collegato a un’Opportunity.</errorMessage>
+</ValidationRule>
